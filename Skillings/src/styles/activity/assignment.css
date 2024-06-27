@@ -1,0 +1,73 @@
+.quizContainer .quizInfo {
+  background-color: white;
+  border: 1px solid #E4E4E4;
+  padding: 16px;
+}
+
+.assignmentPreviewContainer .ql-toolbar.ql-snow + .ql-container.ql-snow {
+  min-height: 100px !important;
+}
+
+.assignmentPreviewContainer {
+  width: 936px;
+  padding: 26px;
+  border: 1px solid #E4E4E4;
+  background: #FDFDFD;
+}
+
+.assignmentPreviewContainer .header .previewLogo {
+  background-color: #FFCE11;
+  border-radius: 9999px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.assignmentPreviewContainer .edit {
+  background: white;
+  border-radius: 9999px;
+  width: 34px;
+  height: 34px;
+  border: 1px solid #252525;
+}
+
+.assignmentPreviewContainer .edit:hover {
+  background: rgb(243, 243, 243);
+  cursor: pointer;
+}
+
+.assignmentPreviewContainer .header {
+  display: flex;
+  border-top: 8px solid #FFCE11;
+  border-left: 1px solid #E4E4E4;
+  border-right: 1px solid #E4E4E4;
+  border-bottom: 1px solid #E4E4E4;
+  justify-content: space-between;
+  background: white;
+  padding: 30px;
+}
+
+.assignmentPreviewContainer .section {
+  padding: 30px;
+  border: 1px solid #E4E4E4;
+  background: white;
+  margin-top: 20px;
+}
+
+.assignmentPreviewContainer .quizFormLabel {
+  flex: 1;
+}
+
+.assignmentPreviewContainer .quizFormLabel {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.assignmentPreviewContainer .quizFormInput {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 16px;
+  border: 1px solid #252525;
+}

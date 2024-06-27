@@ -1,0 +1,35 @@
+.contentStyle {
+    background-color: #fff;
+    padding: 24px 28px;
+    overflow-y: scroll;
+}
+
+.layoutStyle {
+    border-radius: 8;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+.menuHover {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 13px 15px;
+    margin: 0px 5px;
+    border-radius: 15px;
+    color: #303030;
+}
+
+.activeMenu {
+    background-color: #3b82f6;
+    color: #fff !important;
+}
+
+.activeMenu:hover {
+    background-color: #3b82f6 !important;
+}
+
+.menuHover:hover {
+    background-color: #dbeafe;
+    cursor: pointer;
+}

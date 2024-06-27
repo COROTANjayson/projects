@@ -1,0 +1,112 @@
+.submissionContainer {
+  width: 936px;
+  /* padding: 26px; */
+  /* border: 1px solid #E4E4E4; */
+  background: #FDFDFD;
+  /* height: 100%; */
+}
+
+.submissionContainer .header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 0.75rem;
+}
+
+.submissionContainer .main {
+  margin-top: 44px;
+  width: 600px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.submissionContainer form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.submissionContainer .quizInfo {
+  background-color: white;
+  border: 1px solid #E4E4E4;
+  padding: 16px;
+}
+
+.submissionContainer .quizCreate {
+  background-color: white;
+  border: 1px solid #E4E4E4;
+  padding: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.submissionContainer .quizDue {
+  display: flex;
+  column-gap: .50rem;
+}
+
+.submissionContainer .quizFormLabel {
+  flex: 1;
+}
+
+.submissionContainer .quizFormLabel {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.submissionContainer .quizFormInput {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 14px 16px;
+  border: 1px solid #252525;
+}
+
+.submissionContainer .saveCoupon:hover {
+  background-color: rgba(0, 123, 255, 0.8);
+}
+
+.submissionContainer .quizFormButtons {
+  margin-top: 20px;
+  width: 600px;
+  display: flex;
+  column-gap: .50rem;
+  justify-content: flex-end;
+}
+
+.submissionContainer .arrowBack {
+  border-radius: 9999px;
+  border: 2px solid black;
+  display: flex;
+  padding: 5px;
+  width: auto;
+  margin-bottom: auto;
+  margin-top: 10px;
+}
+
+.submissionContainer .arrowBack:hover {
+  background: white;
+  cursor: pointer;
+}
+
+.submissionContainer .breadcrumb {
+  display: flex;
+  align-items: center;
+  column-gap: 0.25rem;
+}
+
+.breadcrumb .breadcrumbLink {
+  font-size: 14px;
+}
+
+.submissionContainer #quizQuestionsList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.submissionContainer .ant-table-cell {
+  padding: 0 !important;
+  border: none !important;
+  /* background-color:#F5F7FA !important; */
+}

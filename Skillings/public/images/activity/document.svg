@@ -1,0 +1,10 @@
+<svg id="Assignment" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3884" data-name="Rectangle 3884" width="16" height="16" fill="#fdfdfd"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_220" data-name="Mask Group 220" clip-path="url(#clip-path)">
+    <path id="Icon_material-assignment" data-name="Icon material-assignment" d="M17.3,3.1H13.956a2.39,2.39,0,0,0-4.512,0H6.1A1.6,1.6,0,0,0,4.5,4.7V15.9a1.6,1.6,0,0,0,1.6,1.6H17.3a1.6,1.6,0,0,0,1.6-1.6V4.7A1.6,1.6,0,0,0,17.3,3.1Zm-5.6,0a.8.8,0,1,1-.8.8A.8.8,0,0,1,11.7,3.1Zm1.6,11.2H7.7V12.7h5.6Zm2.4-3.2h-8V9.5h8Zm0-3.2h-8V6.3h8Z" transform="translate(-3.611 -1.5)" fill="#fdfdfd"/>
+  </g>
+</svg>

@@ -1,0 +1,232 @@
+.quizContainer {
+  width: 936px;
+  padding: 26px;
+  border: 1px solid #E4E4E4;
+  background: #FDFDFD;
+}
+
+.quizContainer .header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 0.50rem;
+}
+
+.quizContainer .main {
+  margin-top: 44px;
+  width: 600px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quizContainer form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.quizContainer .quizInfo {
+  background-color: white;
+  border: 1px solid #E4E4E4;
+  padding: 16px;
+}
+
+.quizContainer .quizCreate {
+  background-color: white;
+  border: 1px solid #E4E4E4;
+  padding: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.quizContainer .quizDue {
+  display: flex;
+  column-gap: .50rem;
+}
+
+.quizContainer .quizFormLabel {
+  flex: 1;
+}
+
+.quizContainer .quizFormLabel {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.quizContainer .quizFormInput {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 14px 16px;
+  border: 1px solid #252525;
+}
+
+.quizContainer .saveCoupon:hover {
+  background-color: rgba(0, 123, 255, 0.8);
+}
+
+.quizContainer .quizFormButtons {
+  margin-top: 20px;
+  width: 600px;
+  display: flex;
+  column-gap: .50rem;
+  justify-content: flex-end;
+}
+
+.quizFormButtons .save {
+  height: 48px;
+  width: 180px;
+  font-size: 16px;
+  /* margin-top: 44px; */
+  background: #007BFF;
+}
+
+.quizFormButtons .cancel {
+  height: 48px;
+  width: 180px;
+  font-size: 16px;
+  color: #252525;
+  background: #FDFDFD;
+  border: 1px solid black;
+}
+
+
+.quizContainer .arrowBack {
+  border-radius: 9999px;
+  border: 2px solid black;
+  display: flex;
+  padding: 5px;
+  width: auto;
+}
+
+.quizContainer .arrowBack:hover {
+  background: white;
+  cursor: pointer;
+}
+
+
+
+.quizContainer .breadcrumb {
+  display: flex;
+  align-items: center;
+  column-gap: 0.25rem;
+}
+
+.breadcrumb .breadcrumbLink {
+  font-size: 14px;
+}
+
+.quizContainer #quizQuestionsList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+#quizQuestionsList .questionWrapper {
+  background: white;
+  padding: 16px;
+  border-top: 1px solid #E4E4E4;
+  border-left: 1px solid #E4E4E4;
+  border-right: 1px solid #E4E4E4;
+  border-bottom: 1px solid #E4E4E4;
+}
+/* #quizQuestionsList .questionWrapper:hover {
+  border-left: 4px solid #007BFF;
+} */
+.questionWrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.questionWrapper .header {
+  display: flex;
+  flex-direction:column;
+  column-gap: 5px;
+  row-gap: 10px;
+  align-items: flex-start;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+}
+
+.questionWrapper .header .headerText {
+  display: flex;
+  align-items: center;
+  column-gap: 0.50rem;
+}
+
+.questionWrapper .close {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.questionWrapper .close:hover {
+  color: #007BFF
+}
+
+.quizPreviewContainer {
+  width: 936px;
+  padding: 26px;
+  /* border-right: 1px solid #E4E4E4; */
+  /* border-left: 1px solid #E4E4E4; */
+  background: #FDFDFD;
+}
+
+.quizPreviewContainer .header .previewLogo {
+  background-color: #FFCE11;
+  border-radius: 9999px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quizPreviewContainer .edit {
+  background: white;
+  border-radius: 9999px;
+  width: 34px;
+  height: 34px;
+  border: 1px solid #252525;
+}
+
+.quizPreviewContainer .edit:hover {
+  background: rgb(243, 243, 243);
+  cursor: pointer;
+}
+
+.quizPreviewContainer .header {
+  display: flex;
+  border-top: 8px solid #007BFF;
+  border-left: 1px solid #E4E4E4;
+  border-right: 1px solid #E4E4E4;
+  border-bottom: 1px solid #E4E4E4;
+  justify-content: space-between;
+  background: white;
+  padding: 30px;
+}
+
+.quizPreviewContainer .section {
+  padding: 30px;
+  border: 1px solid #E4E4E4;
+  background: white;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.quizPreviewContainer .quizFormLabel {
+  flex: 1;
+}
+
+.quizPreviewContainer .quizFormLabel {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.quizPreviewContainer .quizFormInput {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 16px;
+  border: 1px solid #252525;
+}
